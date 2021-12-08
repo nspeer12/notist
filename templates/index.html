@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+
+<body style="text-align: center;">
+	<h1>Dexter</h1>
+	<form onsubmit="question();">
+		<input type="text" name="query" id="query" placeholder="ask me anything">
+				
+		</input>
+		<input type="submit"></input>
+	</form>
+
+	{% if ans %}
+		<p>{{ ans }}</p>
+	{% endif %}
+	<p id="response">
+
+	</p>
+</body>
+
+
+</html>
